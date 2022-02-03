@@ -29,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 },
                 child: Center(
                   child: Text(
-                    'Continue to sign in',
+                    'Continue with Firebase',
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 20,
