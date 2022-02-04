@@ -1,11 +1,11 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
-class UserReposiory {
+class UserRepository {
   FirebaseAuth? _firebaseAuth;
   GoogleSignIn? _googleSignIn;
 
-  UserReposiory({FirebaseAuth? firebaseAuth, GoogleSignIn? googleSignin}) {
+  UserRepository({FirebaseAuth? firebaseAuth, GoogleSignIn? googleSignin}) {
     _firebaseAuth = firebaseAuth ?? FirebaseAuth.instance;
     _googleSignIn = googleSignin ?? GoogleSignIn();
   }
